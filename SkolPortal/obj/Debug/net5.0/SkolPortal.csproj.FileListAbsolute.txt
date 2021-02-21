@@ -196,5 +196,4 @@ C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\R
 C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\Razor\Views\StudentsToClass\Edit.cshtml.g.cs
 C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\Razor\Views\StudentsToClass\Index.cshtml.g.cs
 C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\Razor\Views\Shared\_AdminNavPartial.cshtml.g.cs
-C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\Razor\Views\Shared\_IndexView.cshtml.g.cs
 C:\Users\Linne\source\repos\MVC-Uppgift\SkolPortal\SkolPortal\obj\Debug\net5.0\Razor\Views\Shared\_LogedOut.cshtml.g.cs

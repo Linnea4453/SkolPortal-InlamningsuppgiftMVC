@@ -15658,11 +15658,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Linne\\source\\repos\\MVC-Uppgift\\SkolPortal\\SkolPortal\\Views\\Shared\\_IndexView.cshtml",
-      "TargetPath": "Views\\Shared\\_IndexView.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Linne\\source\\repos\\MVC-Uppgift\\SkolPortal\\SkolPortal\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
