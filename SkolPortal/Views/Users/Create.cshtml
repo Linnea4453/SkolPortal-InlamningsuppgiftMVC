@@ -1,0 +1,39 @@
+﻿@model UserViewModel
+
+<h4 class="mb-3">New User</h4>
+
+<form asp-action="Create" class="needs-validation" novalidate>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group >
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" type="text" id="validationCustom01" required />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            Please fill your First Name.
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName" class="control-label"></label>
+        <input asp-for="LastName" class="form-control" required />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            Please fill in your Last Name.
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" required />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+            Please fill in a valid Emailaddress
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Role" class="control-label"></label>
+        @Html.DropDownListFor(m => m.Role, new SelectList(ViewBag.Roles, "Name", "Name"), "Select a Role")
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create User" id="button" class="btn btn-primary" />
+        <span id="text-output"></span>
+    </div>
+</form>

@@ -1,0 +1,38 @@
+﻿@model IEnumerable<AppUser>
+
+<a asp-action="Create">Add a new User</a>
+
+
+<div class="container row">
+
+
+    <div class="col">
+        <h5 class="mt-4">Administrators</h5>
+        @foreach (var user in ViewBag.Admins)
+        {
+            <div>@user.DisplayName</div>
+        }
+
+    </div>
+
+    <div class="col">
+        <h5 class="mt-4">Teachers</h5>
+        @foreach (var user in ViewBag.Teachers)
+        {
+            <div>@user.DisplayName</div>
+        }
+
+    </div>
+
+
+    <div class="col">
+        <h5 class="mt-4">Students</h5>
+        @foreach (var user in ViewBag.Students)
+        {
+            <div>@user.DisplayName</div>
+        }
+
+    </div>
+
+
+</div>
